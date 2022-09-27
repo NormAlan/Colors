@@ -191,7 +191,7 @@
 /*Hero section*/
 .hero{
   background: #0000;
-  background: linear-gradient(to right, #161616, #0000);
+  background: linear-gradient(to right, #161616, #161616);
   padding: 200px 0;
 }
 
