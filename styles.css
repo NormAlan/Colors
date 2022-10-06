@@ -35,7 +35,7 @@
   background-image: linear-gradient(to top, red 0%, #ddb199 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
@@ -483,15 +483,21 @@
 }
 
 .services_card:nth-child(2){
-  background: #12c2e9;
-background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
-background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background: #108dc7;
+  background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);
+  background: linear-gradient(to right, #ef8e38, #108dc7);
 }
 
 .services_card:nth-child(3){
-  background: #12c2e9;
-background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
-background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background: #e96443;
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);
+  background: linear-gradient(to right, #904e95, #e96443);
+}
+
+.services_card:nth-child(4){
+  background: #1a2a6c;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
 }
 
 .services_card h2{
